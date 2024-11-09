@@ -22,18 +22,18 @@ function Book(book_name,auther,num_pages,is_read){
 
   }
   
-  
-  function addNewBook(){
-  
-   let newBook=new Book(b_name.value,auth_name.value,num_pages.value, is_read.value,);
+ 
+save_button.addEventListener('click',addBookToLibrary);
+
+function addBookToLibrary() {
+  // do stuff here
+  let newBook=new Book(b_name.value,auth_name.value,num_pages.value, is_read.value,);
    console.log(newBook);
    myLibrary.push(newBook);
    console.log(myLibrary);
    return myLibrary;
-  }
-save_button.addEventListener('click',addNewBook);
 
-function addBookToLibrary() {
-  // do stuff here
-
+}
+function displayBooks(){
+  
 }
