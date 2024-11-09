@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+:root{
+    --main-color: rgb(17, 21, 61);
+  
+}
+header,footer{
+    padding: 20em auto;
+    background-color:var(--main-color);
+    color: hsl(0, 20%, 96%);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+.main_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: left;
+}
+.mainBook_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 10px 1px rgb(0 0 0 / 20%);
+    margin: 10px;
+}
+.img_container{
+    height: 200px;
+    max-width: 150px;
+   
+   
+}
+img {
+    height:100%;
+    width: 100%;
+   }
+   .bookNameContainer,.numPagesContainer,.autherNameContainer{
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    line-height: 10px;
+    font-weight: bold;
+    color: var(--main-color);
+   }
+
+   /* <div class="bookNameContainer">Walk into theShadow</div>
+            <div class="autherNameContainer">Estelly Darcy</div>
+            <div class="numPagesContainer">50</div>
+            <div class="bookStatusContainer */
+.addBookForm{
+    display: none;
+
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
