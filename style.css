@@ -19,7 +19,7 @@ header,footer{
 }
 .main_container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
     justify-content: left;
 }
 .mainBook_card{
@@ -52,10 +52,11 @@ img {
     color: var(--main-color);
    }
 
-   /* <div class="bookNameContainer">Walk into theShadow</div>
-            <div class="autherNameContainer">Estelly Darcy</div>
-            <div class="numPagesContainer">50</div>
-            <div class="bookStatusContainer */
+.addBook{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
 .addBookForm{
     display: none;
 
