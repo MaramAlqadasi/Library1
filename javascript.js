@@ -70,16 +70,11 @@ function display(index,book_img,book_name,book,auther,num_pages,is_read){
 function displayAll(){
   for(let i=0;i<myLibrary.length;i++){
     display(i,myLibrary[i].book_img,myLibrary[i].book_name,myLibrary[i].auther,myLibrary[i].num_pages);
-  
-
-  
-
-
   }
 }
 window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-  console.log(event);
+  // console.log("page is fully loaded");
+  // console.log(event);
   displayAll();
 });
 
