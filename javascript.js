@@ -80,7 +80,10 @@ window.addEventListener("load", (event) => {
 
  
 const add =document.querySelector(".add");
-add.addEventListener('onclick',function(){
-  const addBookForm=document.querySelector(".addBookForm");
-  addBookForm.style.display="block";
+const addBookForm=document.querySelector(".addBookForm");
+add.addEventListener('click',function(){
+  addBookForm.showModal();
+
+   
+  
 })

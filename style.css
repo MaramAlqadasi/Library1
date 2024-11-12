@@ -7,6 +7,7 @@
     --main-color: rgb(17, 21, 61);
   
 }
+
 header,footer{
     padding: 20em auto;
     background-color:var(--main-color);
@@ -74,9 +75,16 @@ img {
     color: var(--main-color);
     font-weight: bolder;
     border: 1px solid var(--main-color);
+    font-size: 2.5em;
 }
 .addBookForm{
-    display: none;
+    padding: auto;
+    margin: auto;
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    
+    
 
 }
 footer{

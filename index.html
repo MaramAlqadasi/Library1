@@ -42,18 +42,21 @@
         
     </div>
     <div class="addBook"><button class="add">+</button></div>
-   <div class="addBookForm">
-       <input type="file" id="bookImg">
-            <label for="book_name">Book Name</label>
-            <input type="text" id="book_name"><br>
-            <label for="auther_name">Auther Name</label>
-            <input type="text" id="auther_name"><br>
-            <label for="num_pages">Number of pages</label>
-            <input type="range" id="num_pages"><br>
-            <label for="is_read">Is it read</label>
-            <input type="radio" id="is_read"><br>
-            <button type="submit" id="submit_button">save</button>
-   </div>
+    <dialog class="addBookForm">
+        <form >
+           <div class="img_input"> <input type="file" id="bookImg"></div>
+                <div class="bookName_input"> <label for="book_name">Book Name</label>
+                    <input type="text" id="book_name"></div>
+                <div class="autherName_input"> <label for="auther_name">Auther Name</label>
+                    <input type="text" id="auther_name"></div>
+                <div class="numPage_input"> <label for="num_pages">Number of pages</label>
+                    <input type="range" id="num_pages"></div>
+                 <div class="isRead_input"><label for="is_read">Is it read</label>
+                    <input type="radio" id="is_read"><br></div>
+                 <button type="submit" id="submit_button" autofocus>save</button>
+        </dform>
+    </dialog>
+   
         <script src="javascript.js"></script>
  <footer>
     <span>Maram Alqadasi <a href="https://github.com/MaramAlqadasi">github</a></span> 
