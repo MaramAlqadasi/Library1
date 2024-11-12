@@ -54,8 +54,26 @@ img {
 
 .addBook{
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 50px;
+    right: 20px;
+}
+.add{
+    width: 80px;
+    height: 80px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.add:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--main-color);
+    font-weight: bolder;
+    border: 1px solid var(--main-color);
 }
 .addBookForm{
     display: none;
