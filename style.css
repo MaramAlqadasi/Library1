@@ -83,10 +83,55 @@ img {
     border: none;
     box-shadow: 5px 5px 10px 1px rgb(0 0 0 / 20%);
     border-radius: 10px;
-    
-    
+   
+  
+}
+.addBookForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    gap: 15px;
+    padding: 30px;
+}
+.addBookForm input{
+    border: none;
+    background: transparent;
+    margin: 0 10px;
+    outline: none;
+    padding: 20px 10px ;
+    width: 60%;
+   
+}
+.addBookForm .input-box{
+    width: 364px;
+    height: 52px;
+    background: #F0EDFFCC 80%;
+    border-radius: 16px;
 
 }
+.addBookForm button{
+    width: 124px;
+    height: 52px;
+    border-radius:16px;
+    background:var(--main-color);
+    cursor: pointer; 
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+  
+ 
+  
+  
+  
+
+
 footer{
     position:fixed;
     bottom: 0;

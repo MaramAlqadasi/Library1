@@ -43,17 +43,20 @@
     </div>
     <div class="addBook"><button class="add">+</button></div>
     <dialog class="addBookForm">
+        
         <form >
-           <div class="img_input"> <input type="file" id="bookImg"></div>
-                <div class="bookName_input"> <label for="book_name">Book Name</label>
-                    <input type="text" id="book_name"></div>
-                <div class="autherName_input"> <label for="auther_name">Auther Name</label>
-                    <input type="text" id="auther_name"></div>
-                <div class="numPage_input"> <label for="num_pages">Number of pages</label>
-                    <input type="range" id="num_pages"></div>
-                 <div class="isRead_input"><label for="is_read">Is it read</label>
-                    <input type="radio" id="is_read"><br></div>
-                 <button type="submit" id="submit_button" autofocus>save</button>
+           <div class="img_input"> <label for="boolImg">Choose Book picture...</label><input type="file" id="bookImg"></div>
+                <div class="input-box"> 
+                    <input type="text" id="book_name" required placeholder="Book Name"></div>
+                <div class="input-box"> 
+                    <input type="text" id="auther_name" placeholder="Auther Name"></div>
+                <div class="input-box" > 
+                    <input type="number" id="num_pages" placeholder="Number of pages"></div>  
+                    <div class="is-read">
+                        <label for="is-read">Have you read it?</label>
+                        <input class="checkbox" type="checkbox" id="is-read">
+                      </div>
+                    <button type="submit" id="submit_button" autofocus>save</button>
         </dform>
     </dialog>
    
